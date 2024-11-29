@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tom and Jerry</title>
+	<link href='style.css' rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+		 
+  <b><div id="greeting-container"></div></b>
+
+		
+		<div id="choo">	
+		<img id='tompi'src="Tom.png">
+		<img id='jerrypi'src="Jerry.png">
+		<b><P id='chop'>CHOOSE YOUR CHARACTER</p></b>
+		
+    	  <button class="custom-btn btn-7" onclick="changeBackgroundColorto('#268784')"><span>Tom</span></button>
+  		<button class="custom-btn btn-8"onclick="changeBackgroundColorje('#e0c15a')"><span>Jerry</span></button>
+		</div>
+   
+
+
+
+
+
+		<img src="https://wbshop.com/cdn/shop/collections/tom-jerry-min_cf9c8a43-acdd-4e46-b8b1-72972a850258.jpg?v=1730912227" width="100%">
+	<ul id="navbar">
+		<li><img src="logo.png" height="40px"></li>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="game.html">Chasing game</a></li>
+		 <li class="dropdown">
+	    <a href="page3.html" class="dropbtn">Character</a>
+	    <div class="dropdown-content">
+	      <a href="page3.html.card-container">Recurring Characters</a>
+	      <a href="page3.html.episodes">Classical Episodes</a>
+	    </div>
+	  </li>
+	  <li ><a href="index.html" >Sign Up</a></li>
+	</ul>
+
+<button id="backToTop" onclick="scrollToTop()">↑</button>
+
+
+<center>
+<div id="intro">
+	<div class="pict">
+	<img src="intropic.png" height="150px"></div>
+	<div class="par">
+	<p>Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by <span class="hover-word" onclick="showInfo('wh')" >William Hanna</span> and <span class="hover-word" onclick="showInfo('jb')" >Joseph Barbera</span>. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the enmity between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.</p></div>
+</div></center>
+<div id="popup" style="display:none;">
+    <div id="popup-content">
+        <img id="popup-image" src="" alt="Image" width="100">
+        <p id="popup-text"></p>
+        <button id='clo'onclick="hideInfo()">Close</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--shopping-->
+	<div id="shop">
+		<div class="items">
+	<img src="https://wbshop.com/cdn/shop/files/JRY-FP_194_MF3.jpg?v=1727243231&width=300">
+	<p>Jerry Funko Pop</p>
+		<b>	<p class="price">$14.95</p></b>
+		<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div>
+</div>
+	<div class="items">
+	<img src="https://wbshop.com/cdn/shop/files/TM-FP_194_MF2.jpg?v=1727242913&width=300">
+	<p>Tom Funko Pop</p>
+<b>	<p  class="price">$14.95</p></b>
+ <div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div>
+</div>
+
+	<div class="items">
+	<img src="https://wbshop.com/cdn/shop/products/TAJ-BHH-100148-WHITE-MF.png?v=1636406282&width=300">
+	<p>Be Happy Holiday Fleece Hooded Sweatshit</p>
+<b>	<p class="price">$54.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+
+	<div class="items">
+	<img src="https://wbshop.com/cdn/shop/products/TAJ-LGO-100161-BLK-MF.png?v=1636403224&width=300">
+	<p>Pom Pom Knit Beanie</p>
+<b>	<p class="price">$24.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+
+	<div class="items">
+	<img src="https://wbshop.com/cdn/shop/files/white-ceramic-mug-with-color-inside-red-11-oz-left-666177bc4dc3f.jpg?v=1717707113&width=300">
+	<p>Yum Yum Two-tone Mug</p>
+<b>	<p class="price">$14.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+<div class="items">
+	<img src="https://wbshop.com/cdn/shop/files/unisex-staple-t-shirt-heather-dust-front-6661dc30cb891.jpg?v=1717689619&width=300">
+	<p>Mashups Mogwai T-shirt</p>
+<b>	<p class="price">$26.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+<div class="items">
+	<img src="https://wbshop.com/cdn/shop/products/WB-TJ4-145-100957-BLACK-FT-MF.jpg?v=1680031557&width=300">
+	<p>Unisex Premium Hoodie</p>
+<b>	<p class="price">$48.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+<div class="items">
+	<img src="https://wbshop.com/cdn/shop/products/TAJ-100027-FT-BLUSH-MF.png?v=1643685091&width=300">
+	<p>Wine Tumbler with Straw</p>
+<b>	<p class="price">$14.95</p></b>
+<div class="controls">
+      <button class="decrease">-</button>
+      <span class="quantity">0</span>
+      <button class="increase">+</button>
+    </div></div>
+
+
+	</div>
+	<div id="total">
+  <p>Total Price: <br>$<span id="total-price">0.00</span></p>
+  <button>Check Out</button>
+</div>
+
+
+
+
+
+
+<hr style="color: #2b3d42;">
+<!--footer-->
+<footer id="footer">
+    <div class="footer-content">
+       
+        <!-- Section 2: Quick Links -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="game.html">Chasing game</a></li>
+                <li><a href="page3.html">Character</a></li>
+                <li><a href="index.html">Log in/Sign Up</a></li>
+                
+            </ul>
+        </div>
+
+        <!-- Section 3: Contact Info -->
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p><strong>Email:</strong> support@example.com</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Address:</strong> 123 Street Name, City, Country</p>
+        </div>
+        <img src="footer.png" height="270px">
+        
+</div>
+    
+</footer>
+
+
+
+
+
+ <script>
+        function changeBackgroundColorto(color) {
+            document.body.style.backgroundColor = color;
+            document.getElementById('tompi').style.display = 'inline';
+             document.getElementById('jerrypi').style.display = 'none';
+              localStorage.setItem("backgroundColor", color); 
+        }
+         function changeBackgroundColorje(color) {
+            document.body.style.backgroundColor = color;
+            document.getElementById('jerrypi').style.display = 'inline';
+            document.getElementById('tompi').style.display = 'none';
+             localStorage.setItem("backgroundColor", color);
+        }
+
+
+//api
+       const apiKey = "9826ebce7aa381d9e695bfe59c4ebd32"; 
+    const city = "Toronto"; 
+    const greetingContainer = document.getElementById("greeting-container");
+
+    
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes().toString().padStart(2, "0");
+    const date = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+
+  
+    let greetingText = [];
+    if (hours < 12) {
+      greetingText.push("Good morning!");
+    } else if (hours < 18) {
+      greetingText.push("Good afternoon!");
+    } else {
+      greetingText.push("Good evening!");
+    }
+    greetingText.push(`Today is ${date}.`);
+    greetingText.push(`The time now is ${hours}:${minutes}.`);
+     fetchWeather();
+
+    
+    async function fetchWeather() {
+      try {
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
+        const weatherData = await response.json();
+        const weatherText = `The weather in ${city} is ${weatherData.weather[0].description}, with a temperature of ${weatherData.main.temp}°C.`;
+        greetingText.push(weatherText);
+         greetingText.push(`If you want to learn more about Tom and Jerry, choose your character to get started!`);
+        typeWriter(); 
+      } catch (error) {
+      	 greetingText.push(`If you want to learn more about Tom and Jerry, choose your character to get started!`);
+        greetingText.push("Unable to fetch weather data.");
+        typeWriter(); 
+      }
+    }
+    
+
+    //Flicker text
+    let lineIndex = 0;
+    let charIndex = 0;
+    const typeWriter = () => {
+      if (lineIndex < greetingText.length) {
+       
+        const currentLine = greetingText[lineIndex];
+        
+        if (!greetingContainer.children[lineIndex]) {
+          const lineElement = document.createElement("div");
+          lineElement.className = "line";
+          lineElement.innerHTML = `<span class="text"></span><span class="cursor"></span>`;
+          greetingContainer.appendChild(lineElement);
+        }
+        const textElement = greetingContainer.children[lineIndex].querySelector(".text");
+
+        
+        if (charIndex < currentLine.length) {
+          textElement.textContent += currentLine[charIndex];
+          charIndex++;
+          setTimeout(typeWriter, 100); 
+        } else {
+          charIndex = 0;
+          lineIndex++;
+          setTimeout(typeWriter, 500); 
+        }
+      } else {
+       
+        const lastCursor = greetingContainer.querySelector(".cursor");
+        if (lastCursor) lastCursor.remove();
+      }
+    };
+
+   
+
+
+   //calculate the price
+   document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".items");
+  const totalPriceElement = document.getElementById("total-price");
+
+ 
+  items.forEach((item) => {
+    const priceText = item.querySelector(".price").textContent; 
+    const price = parseFloat(priceText.replace("$", "")); 
+    const decreaseButton = item.querySelector(".decrease");
+    const increaseButton = item.querySelector(".increase");
+    const quantityElement = item.querySelector(".quantity");
+
+    let quantity = 0;
+
+    
+    const updateTotal = () => {
+      const total = Array.from(items).reduce((sum, currentItem) => {
+        const itemPrice = parseFloat(
+          currentItem.querySelector(".price").textContent.replace("$", "")
+        );
+        const itemQuantity = parseInt(currentItem.querySelector(".quantity").textContent);
+        return sum + itemPrice * itemQuantity;
+      }, 0);
+      totalPriceElement.textContent = total.toFixed(2);
+    };
+
+    
+    decreaseButton.addEventListener("click", () => {
+      if (quantity > 0) {
+        quantity--;
+        quantityElement.textContent = quantity;
+        updateTotal();
+      }
+    });
+
+  
+    increaseButton.addEventListener("click", () => {
+      quantity++;
+      quantityElement.textContent = quantity;
+      updateTotal();
+    });
+  });
+});
+
+   
+
+
+
+// back to top
+const backToTopButton = document.getElementById("backToTop");
+
+
+window.onscroll = function() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    backToTopButton.style.display = "block"; 
+  } else {
+    backToTopButton.style.display = "none"; 
+  }
+};
+
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+
+
+
+
+// Function to show the popup
+function showInfo(character) {
+    const popup = document.getElementById("popup");
+    const popupText = document.getElementById("popup-text");
+    const popupImage = document.getElementById("popup-image");
+
+    if (character === 'wh') {
+        popupText.textContent = "William Denby Hanna (July 14, 1910 – March 22, 2001) was an American animator, voice actor, and occasional musician who is best known for co-creating Tom and Jerry and providing the vocal effects for the series' title characters. Alongside Joseph Barbera, he also founded the animation studio and production company Hanna-Barbera.";
+        popupImage.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/William_Hanna_1977.jpg/512px-William_Hanna_1977.jpg"; 
+    } else if (character === 'jb') {
+        popupText.textContent = "Joseph Roland Barbera; March 24, 1911 – December 18, 2006) was an American animator and cartoonist, best known as the co-founder of the animation studio Hanna-Barbera.";
+        popupImage.src = "https://upload.wikimedia.org/wikipedia/commons/6/67/JBarbera.jpg"; 
+    }
+
+    popup.style.display = "block"; // Show the popup
+}
+
+// Function to hide the popup
+function hideInfo() {
+    const popup = document.getElementById("popup");
+    popup.style.display = "none"; // Hide the popup
+}
+   
+    </script>
+</body>
+</html>
