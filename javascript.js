@@ -16,17 +16,7 @@ const obstacle = document.getElementById('obstacle');
 let step = Math.floor(gameWidth * 0.01);
 let timeinterval, jerryMoveInterval, collisionInterval, cheeseInterval, obstacleInterval;
 
-window.onload = function() {
-    document.getElementById('rules').style.display = 'block';
-    const savedColor = localStorage.getItem("backgroundColor");
-    if (savedColor) {
-    console.log("Background color found in localStorage:", savedColor);  
-    document.body.style.backgroundColor = savedColor;
-    } 
-    else {
-    	console.log("No background color found in localStorage."); 
-    }
-};
+
 document.addEventListener('keydown', function(event){
 	tommove(event);
 })
