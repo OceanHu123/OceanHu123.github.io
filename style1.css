@@ -153,7 +153,6 @@ body{
   display: grid;
   place-content: center;
   grid-template-columns: auto auto;
-  background: #f4d967;
 }
 .card {
     background: #fff;
@@ -169,7 +168,6 @@ body{
     flex-wrap:wrap;
 	text-align:center;
 	display:flex;
-	background: #fff;
     color: #333;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 	border-radius: 12px;
