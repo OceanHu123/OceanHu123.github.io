@@ -119,6 +119,15 @@
 </footer>
   <script src='javascript.js'></script>
     <script src='javascript2.js'></script>
+    <script>
+    window.onload = function() {
+        const savedColor = localStorage.getItem("backgroundColor");
+
+        if (savedColor) {
+            document.body.style.backgroundColor = savedColor;
+        }
+    };
+</script>
   
 </body>
 </html>
